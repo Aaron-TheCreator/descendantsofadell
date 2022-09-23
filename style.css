@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.App {
+  /*   display: flex; */
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+div {
+  margin-bottom: 10vh;
+  max-width: 100vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#mainContent,
+#rsvpInfo,
+#costInfo,
+#hotelInfo,
+#payNowCont {
+  min-height: 10vh;
+
+  font-size: 16px;
+  background-color: #44bcf8;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* styling the table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#d_Of {
+  font-family: "Didot", serif;
+  font-size: 2 rem;
+}
+
+#headerAdell {
+  font-family: "Ms Madi", cursive;
+}

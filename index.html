@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Descendants of Adell</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div class="App">
+    <h1>
+      <p id="d_Of">Descendants of</p>
+      <p id='headerAdell'>Adell</p>
+    </h1>
+    <header id="header">
+      <div id="imgCont">
+        <img
+          src="https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Plants-and-Fungi/plant_southern-live-oak_600x300.ashx"
+          alt='huge southern oak tree' />
+      </div>
+      <h2>Join Us Summer 2023 </h2>
+      <p>for our 1st Descendants of Adell Family Reunion</p>
+    </header>
+    <section id="about">
+      <div id="mainContent">
+        <p>We are so excited to host our first ever “Descendants of Adell” Family Reunion!
+          We look forward to sharing old memories, new family members and reconnect to
+          those we haven’t seen for a while.
+          To prepare for our time together, here is the calendar of events planned for June
+          9
+          th
+          -11th, 2023:</p>
+      </div>
+      <div id="tableCont">
+        <table>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Location</th>
+          </tr>
+          <tr>
+            <td>Friday, June 9th</td>
+            <td>2:00pm-7:00pm</td>
+            <td>Day in the park. Meet your family,
+              wear your t-shirts and enjoy food, fun,
+              & games. Catered event.</td>
+            <td><strong>Bayview Community
+                Park</strong><br />2000 E Lloyd St
+              Pensacola, FL 32503</td>
+          </tr>
+          <tr>
+            <td>Saturday, June
+              10th</td>
+            <td>6:00pm-7:00pm
+              Happy Hour
+              7:30pm
+              Dinner Starts</td>
+            <td>Happy Hour includes hot appetizers
+              and a cash bar. There will be raffles,
+              games, karaoke, & dancing. So bring
+              your dancing shoes!</td>
+            <td><strong>Scenic Hills Country
+                Club</strong><br />8891 Burning Tree Rd
+              Pensacola, FL 32514</td>
+          </tr>
+          <tr>
+            <td>Sunday, June 11th</td>
+            <td>11:00am
+              Worship Service
+              Begins</td>
+            <td>For those who would like to attend
+              worship service, please join us at Berta
+              Simmons’ church. Let’s praise the Lord
+              together!</td>
+            <td><strong>Sabathani Missionary
+                Baptist Church</strong><br />2201 N Haynes St
+              Pensacola, FL 32503</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="rsvpInfo">
+        <h3>R.S.V.P</h3>
+        <p>In order to plan appropriately for food, t-shirts, and prizes, we must receive an
+          accurate count of who will attend. Please RSVP and provide t-shirt sizes no later
+          than November 1, 2022 to Teresa Faye Walker (619) 300-5460 or Angie Burns
+          (619) 339-4072.</p>
+      </div>
+      <div id="costInfo">
+        <h3>Cost & Payments</h3>
+        <p>The total cost for these events and a family reunion t-shirt is $160 per adult, $30
+          per child 4-12yrs, and free for children under 3yrs. This price does NOT include
+          transportation and lodging. Prices may vary if you do not attend all events.
+          Payments can be made via Venmo, check or money order, or with the <a href="#payNowCont">Pay Now</a> button below. No cash payments
+          please.</p>
+        <br />
+        <p>Venmo to @Teresa-Walker-28</p>
+        <br />
+        <p>Mail check or money order to: Anne Greer 512 Ocean View Lane, Chula Vista, CA
+          91914.</p>
+        <br />
+        <p>A non-refundable deposit of $50 is due on <strong>November 15, 2022.</strong></p>
+        <br />
+        <p>Half of your party’s total will be due by <strong>January 5, 2023</strong> and balance to be paid by
+          <strong>May 1, 2023</strong>. Payment arrangements can be made by contacting Teresa Faye
+          Walker. (619) 300-5460
+        </p>
+      </div>
+      <div id="hotelInfo">
+        <h3>Hotel</h3>
+        <p>Our family has a group rate at the <strong>Hilton Garden Inn 1144 Airport Blvd,
+            Pensacola, FL 32504</strong> <a
+            href="www.pensacolaairportmedicalcenter.hgi.com">www.pensacolaairportmedicalcenter.hgi.com</a></p>
+      </div>
+<!--       PAYPAL CODE PASTED BELOW -->
+      <div id="payNowCont">
+        <h3>Pay Now</h3>
+        <p>Pay now securely with Credit/Debit, Venmo or PayPal</p>
+        <div id="smart-button-container">
+    <div style="text-align: center"><label for="description">Number of Adults/Kids </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
+      <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+    <div style="text-align: center"><label for="amount">Paying today </label><input name="amountInput" type="number" id="amount" value="" ><span> USD</span></div>
+      <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+    <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid">Name & T-Shirt Size </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
+      <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+    <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+  </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=Abo5RConJtrMlHymPbxB2r2ccj37srXbHu2ifW8WxcKAOlGo1AcQ1kev_B5fK60FVILzspDhQ1cetfGs&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+  function initPayPalButton() {
+    var description = document.querySelector('#smart-button-container #description');
+    var amount = document.querySelector('#smart-button-container #amount');
+    var descriptionError = document.querySelector('#smart-button-container #descriptionError');
+    var priceError = document.querySelector('#smart-button-container #priceLabelError');
+    var invoiceid = document.querySelector('#smart-button-container #invoiceid');
+    var invoiceidError = document.querySelector('#smart-button-container #invoiceidError');
+    var invoiceidDiv = document.querySelector('#smart-button-container #invoiceidDiv');
+
+    var elArr = [description, amount];
+
+    if (invoiceidDiv.firstChild.innerHTML.length > 1) {
+      invoiceidDiv.style.display = "block";
+    }
+
+    var purchase_units = [];
+    purchase_units[0] = {};
+    purchase_units[0].amount = {};
+
+    function validate(event) {
+      return event.value.length > 0;
+    }
+
+    paypal.Buttons({
+      style: {
+        color: 'blue',
+        shape: 'rect',
+        label: 'pay',
+        layout: 'vertical',
+        
+      },
+
+      onInit: function (data, actions) {
+        actions.disable();
+
+        if(invoiceidDiv.style.display === "block") {
+          elArr.push(invoiceid);
+        }
+
+        elArr.forEach(function (item) {
+          item.addEventListener('keyup', function (event) {
+            var result = elArr.every(validate);
+            if (result) {
+              actions.enable();
+            } else {
+              actions.disable();
+            }
+          });
+        });
+      },
+
+      onClick: function () {
+        if (description.value.length < 1) {
+          descriptionError.style.visibility = "visible";
+        } else {
+          descriptionError.style.visibility = "hidden";
+        }
+
+        if (amount.value.length < 1) {
+          priceError.style.visibility = "visible";
+        } else {
+          priceError.style.visibility = "hidden";
+        }
+
+        if (invoiceid.value.length < 1 && invoiceidDiv.style.display === "block") {
+          invoiceidError.style.visibility = "visible";
+        } else {
+          invoiceidError.style.visibility = "hidden";
+        }
+
+        purchase_units[0].description = description.value;
+        purchase_units[0].amount.value = amount.value;
+
+        if(invoiceid.value !== '') {
+          purchase_units[0].invoice_id = invoiceid.value;
+        }
+      },
+
+      createOrder: function (data, actions) {
+        return actions.order.create({
+          purchase_units: purchase_units,
+        });
+      },
+
+      onApprove: function (data, actions) {
+        return actions.order.capture().then(function (orderData) {
+
+          // Full available details
+          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+          // Show a success message within this page, e.g.
+          const element = document.getElementById('paypal-button-container');
+          element.innerHTML = '';
+          element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+          // Or go to another URL:  actions.redirect('thank_you.html');
+          
+        });
+      },
+
+      onError: function (err) {
+        console.log(err);
+      }
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+  </script>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <!--   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  -->
+</body>
+
+</html>
